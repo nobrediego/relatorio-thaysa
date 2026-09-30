@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Relatório de Campanha — Time da Thaysa</title>
+<style>
+  :root { --brand: #086b9d; --brand-dark: #064d72; --brand-soft: #e3f2fb;
+    --ink: #17203a; --muted: #5b6478; --line: #e2e6ef; --bg: #f7f8fb; --surface: #fff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 "Segoe UI", system-ui, sans-serif; }
+  .hero { background: linear-gradient(135deg, #064d72 0%, #0879ab 100%); color: #fff; padding: 34px 20px 30px; }
+  .hero-in { max-width: 960px; margin: 0 auto; display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+  .hero img { height: 74px; }
+  .hero .k { font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.12em; opacity: 0.85; }
+  .hero h1 { margin: 2px 0 4px; font-size: 1.5rem; line-height: 1.25; letter-spacing: -0.01em; }
+  .hero .s { opacity: 0.85; font-size: 0.92rem; margin: 0; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 26px 20px 64px; }
+  h2 { font-size: 0.83rem; text-transform: uppercase; letter-spacing: 0.11em; color: var(--brand);
+    margin: 40px 0 6px; padding-bottom: 7px; border-bottom: 1px solid var(--line); }
+  .an { color: var(--muted); font-size: 0.95rem; max-width: 74ch; margin: 8px 0 14px; }
+  .an strong { color: var(--ink); }
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 20px; }
+  .kpi { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 13px 15px; }
+  .kpi .l { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); margin-bottom: 4px; }
+  .kpi .v { font-size: 1.45rem; font-weight: 800; font-variant-numeric: tabular-nums; letter-spacing: -0.01em; color: var(--brand-dark); }
+  .kpi .n { font-size: 0.78rem; color: var(--muted); margin-top: 2px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 16px; }
+  svg { width: 100%; height: auto; display: block; }
+  .tick { font: 10.5px "Segoe UI", system-ui, sans-serif; fill: var(--muted); }
+  .dlabel { font: 700 11.5px "Segoe UI", system-ui, sans-serif; fill: var(--ink); font-variant-numeric: tabular-nums; }
+  .blabel { font: 12px "Segoe UI", system-ui, sans-serif; fill: var(--ink); }
+  .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 720px) { .duo { grid-template-columns: 1fr; } }
+  .eff { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px; }
+  .eff .e { background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--brand); border-radius: 8px; padding: 13px 15px; }
+  .eff .t { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--brand); font-weight: 700; }
+  .eff .b { font-size: 1.15rem; font-weight: 800; margin: 3px 0 2px; }
+  .eff p { font-size: 0.84rem; color: var(--muted); margin: 0; }
+  .note { font-size: 0.78rem; color: var(--muted); margin-top: 8px; }
+  .foot { margin-top: 52px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 0.82rem;
+    color: var(--muted); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+  .foot .dnia { display: flex; align-items: center; gap: 7px; }
+  .foot .dnia img { width: 20px; height: 20px; border-radius: 5px; }
+  #tip { position: fixed; pointer-events: none; background: var(--ink); color: #fff; font-size: 12.5px;
+    padding: 5px 9px; border-radius: 6px; opacity: 0; transition: opacity 0.12s; z-index: 10; white-space: nowrap; }
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-in">
+    <img src="/apoie/logo-branca.png" alt="Time da Thaysa">
+    <div>
+      <div class="k">Relatório de campanha · plataforma de apoiadores</div>
+      <h1>Time da Thaysa — a força da rede em números</h1>
+      <p class="s">Dados extraídos direto do sistema em 30/09/2026 · 54 dias de operação</p>
+    </div>
+  </div>
+</div>
+<div class="wrap">
+
+  <div class="kpis">
+    <div class="kpi"><div class="l">Apoiadores cadastrados</div><div class="v">41.347</div><div class="n">com WhatsApp e consentimento</div></div>
+    <div class="kpi"><div class="l">Vieram por indicação</div><div class="v">99,0%</div><div class="n">rede indicando rede</div></div>
+    <div class="kpi"><div class="l">Ritmo · últimos 7 dias</div><div class="v">4.422/dia</div><div class="n">30.954 na semana</div></div>
+    <div class="kpi"><div class="l">Recorde em um dia</div><div class="v">6.349</div><div class="n">em 29/09</div></div>
+    <div class="kpi"><div class="l">Municípios do AM</div><div class="v">52</div><div class="n">de 62 no estado</div></div>
+    <div class="kpi"><div class="l">Mobilizadores ativos</div><div class="v">1.112</div><div class="n">já trouxeram ao menos 1 pessoa</div></div>
+  </div>
+
+  <h2>Crescimento da base</h2>
+  <p class="an">A plataforma entrou no ar em 07/08 e chegou a <strong>41.347 apoiadores em 54 dias</strong> — a maior base digital de apoiadores do Amazonas nesta eleição. Só na última semana entraram 30.954 pessoas.</p>
+  <div class="card"><svg viewBox="0 0 720 240" role="img" aria-label="Crescimento acumulado de apoiadores">
+    <line x1="52" x2="704" y1="164.99881490797398" y2="164.99881490797398" stroke="var(--line)" stroke-width="1"/><text x="46" y="167.99881490797398" text-anchor="end" class="tick">10k</text><line x1="52" x2="704" y1="115.99762981594796" y2="115.99762981594796" stroke="var(--line)" stroke-width="1"/><text x="46" y="118.99762981594796" text-anchor="end" class="tick">21k</text><line x1="52" x2="704" y1="67.00118509202602" y2="67.00118509202602" stroke="var(--line)" stroke-width="1"/><text x="46" y="70.00118509202602" text-anchor="end" class="tick">31k</text><line x1="52" x2="704" y1="18" y2="18" stroke="var(--line)" stroke-width="1"/><text x="46" y="21" text-anchor="end" class="tick">41k</text><text x="52" y="232" class="tick" text-anchor="middle">ago</text><text x="274.27272727272725" y="232" class="tick" text-anchor="middle">set</text>
+    <path d="M52.0,214.0 L66.8,213.3 L81.6,212.8 L96.5,211.3 L111.3,210.4 L126.1,210.2 L140.9,209.6 L155.7,209.2 L170.5,209.1 L185.4,208.5 L200.2,208.5 L215.0,208.3 L229.8,208.1 L244.6,208.0 L259.5,207.7 L274.3,207.3 L289.1,207.1 L303.9,206.9 L318.7,206.7 L333.5,206.7 L348.4,206.6 L363.2,206.4 L378.0,206.3 L392.8,206.2 L407.6,206.1 L422.5,206.0 L437.3,205.9 L452.1,205.9 L466.9,205.8 L481.7,204.8 L496.5,203.3 L511.4,201.7 L526.2,195.4 L541.0,190.2 L555.8,186.2 L570.6,178.9 L585.5,167.4 L600.3,147.7 L615.1,122.9 L629.9,102.5 L644.7,73.2 L659.5,60.7 L674.4,50.8 L689.2,20.7 L704.0,18.0 L704,214 L52,214 Z" fill="#086b9d" opacity="0.18"/>
+    <path d="M52.0,214.0 L66.8,213.3 L81.6,212.8 L96.5,211.3 L111.3,210.4 L126.1,210.2 L140.9,209.6 L155.7,209.2 L170.5,209.1 L185.4,208.5 L200.2,208.5 L215.0,208.3 L229.8,208.1 L244.6,208.0 L259.5,207.7 L274.3,207.3 L289.1,207.1 L303.9,206.9 L318.7,206.7 L333.5,206.7 L348.4,206.6 L363.2,206.4 L378.0,206.3 L392.8,206.2 L407.6,206.1 L422.5,206.0 L437.3,205.9 L452.1,205.9 L466.9,205.8 L481.7,204.8 L496.5,203.3 L511.4,201.7 L526.2,195.4 L541.0,190.2 L555.8,186.2 L570.6,178.9 L585.5,167.4 L600.3,147.7 L615.1,122.9 L629.9,102.5 L644.7,73.2 L659.5,60.7 L674.4,50.8 L689.2,20.7 L704.0,18.0" fill="none" stroke="#086b9d" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="704" cy="18" r="4.5" fill="#064d72"/>
+    <text x="696" y="8" text-anchor="end" class="dlabel">41.347</text>
+  </svg></div>
+
+  <h2>Cadastros por dia — últimos 30 dias</h2>
+  <p class="an">Cinco dos últimos dez dias passaram de 4 mil cadastros. O recorde — <strong>6.349 em 29/09</strong> — mostra a rede de líderes operando a pleno vapor em múltiplas frentes ao mesmo tempo.</p>
+  <div class="card"><svg viewBox="0 0 720 220" role="img" aria-label="Cadastros por dia, últimos 30 dias"><rect x="11.0" y="191.9" width="21.3" height="2.1" rx="3" fill="#086b9d"><title>01/09: 77 cadastros</title></rect><text x="21.666666666666664" y="212" text-anchor="middle" class="tick">01/09</text><rect x="34.3" y="192.7" width="21.3" height="1.5" rx="3" fill="#086b9d"><title>02/09: 49 cadastros</title></rect><rect x="57.7" y="192.9" width="21.3" height="1.5" rx="3" fill="#086b9d"><title>03/09: 41 cadastros</title></rect><rect x="81.0" y="193.1" width="21.3" height="1.5" rx="3" fill="#086b9d"><title>04/09: 34 cadastros</title></rect><rect x="104.3" y="193.6" width="21.3" height="1.5" rx="3" fill="#086b9d"><title>05/09: 14 cadastros</title></rect><rect x="127.7" y="193.4" width="21.3" height="1.5" rx="3" fill="#086b9d"><title>06/09: 21 cadastros</title></rect><text x="138.33333333333331" y="212" text-anchor="middle" class="tick">06/09</text><rect x="151.0" y="193.2" width="21.3" height="1.5" rx="3" fill="#086b9d"><title>07/09: 31 cadastros</title></rect><rect x="174.3" y="193.3" width="21.3" height="1.5" rx="3" fill="#086b9d"><title>08/09: 25 cadastros</title></rect><rect x="197.7" y="193.3" width="21.3" height="1.5" rx="3" fill="#086b9d"><title>09/09: 27 cadastros</title></rect><rect x="221.0" y="193.6" width="21.3" height="1.5" rx="3" fill="#086b9d"><title>10/09: 16 cadastros</title></rect><rect x="244.3" y="193.5" width="21.3" height="1.5" rx="3" fill="#086b9d"><title>11/09: 19 cadastros</title></rect><text x="254.99999999999997" y="212" text-anchor="middle" class="tick">11/09</text><rect x="267.7" y="193.6" width="21.3" height="1.5" rx="3" fill="#086b9d"><title>12/09: 13 cadastros</title></rect><rect x="291.0" y="193.7" width="21.3" height="1.5" rx="3" fill="#086b9d"><title>13/09: 10 cadastros</title></rect><rect x="314.3" y="193.7" width="21.3" height="1.5" rx="3" fill="#086b9d"><title>14/09: 11 cadastros</title></rect><rect x="337.7" y="187.9" width="21.3" height="6.1" rx="3" fill="#086b9d"><title>15/09: 227 cadastros</title></rect><rect x="361.0" y="185.8" width="21.3" height="8.2" rx="3" fill="#086b9d"><title>16/09: 301 cadastros</title></rect><text x="371.6666666666667" y="212" text-anchor="middle" class="tick">16/09</text><rect x="384.3" y="184.7" width="21.3" height="9.3" rx="3" fill="#086b9d"><title>17/09: 342 cadastros</title></rect><rect x="407.7" y="158.1" width="21.3" height="35.9" rx="3" fill="#086b9d"><title>18/09: 1.325 cadastros</title></rect><rect x="431.0" y="164.0" width="21.3" height="30.0" rx="3" fill="#086b9d"><title>19/09: 1.109 cadastros</title></rect><rect x="454.3" y="171.4" width="21.3" height="22.6" rx="3" fill="#086b9d"><title>20/09: 834 cadastros</title></rect><rect x="477.7" y="152.3" width="21.3" height="41.7" rx="3" fill="#086b9d"><title>21/09: 1.540 cadastros</title></rect><text x="488.3333333333333" y="212" text-anchor="middle" class="tick">21/09</text><rect x="501.0" y="128.3" width="21.3" height="65.7" rx="3" fill="#086b9d"><title>22/09: 2.424 cadastros</title></rect><rect x="524.3" y="81.0" width="21.3" height="113.0" rx="3" fill="#086b9d"><title>23/09: 4.171 cadastros</title></rect><rect x="547.7" y="52.5" width="21.3" height="141.5" rx="3" fill="#086b9d"><title>24/09: 5.222 cadastros</title></rect><rect x="571.0" y="77.5" width="21.3" height="116.5" rx="3" fill="#086b9d"><title>25/09: 4.300 cadastros</title></rect><rect x="594.3" y="26.2" width="21.3" height="167.8" rx="3" fill="#086b9d"><title>26/09: 6.193 cadastros</title></rect><text x="604.9999999999999" y="212" text-anchor="middle" class="tick">26/09</text><rect x="617.7" y="122.7" width="21.3" height="71.3" rx="3" fill="#086b9d"><title>27/09: 2.631 cadastros</title></rect><rect x="641.0" y="137.4" width="21.3" height="56.6" rx="3" fill="#086b9d"><title>28/09: 2.088 cadastros</title></rect><rect x="664.3" y="22.0" width="21.3" height="172.0" rx="3" fill="#064d72"><title>29/09: 6.349 cadastros</title></rect><text x="674.9999999999999" y="16" text-anchor="middle" class="dlabel">6.349</text><rect x="687.7" y="178.5" width="21.3" height="15.5" rx="3" fill="#086b9d"><title>30/09: 571 cadastros</title></rect><text x="698.3333333333333" y="212" text-anchor="middle" class="tick">30/09</text></svg></div>
+
+  <h2>A máquina de indicações</h2>
+  <p class="an">De cada 100 apoiadores, 99 chegaram pelo link de outro apoiador — a base cresce sozinha, sem custo de aquisição. São <strong>1.112 mobilizadores</strong> com pelo menos uma indicação registrada. O ranking abaixo mostra os 10 maiores (indicações diretas):</p>
+  <div class="card"><svg viewBox="0 0 720 308" role="img" aria-label="Ranking"><text x="172" y="23" text-anchor="end" class="blabel">Eduardo P. · Manaus</text>
+    <rect x="180" y="9" width="470.0" height="20" rx="4" fill="#086b9d"><title>Eduardo P. · Manaus: 1.842</title></rect>
+    <text x="658" y="23" class="dlabel">1.842</text><text x="172" y="53" text-anchor="end" class="blabel">Liliane O. · Manaus</text>
+    <rect x="180" y="39" width="247.8" height="20" rx="4" fill="#086b9d"><title>Liliane O. · Manaus: 971</title></rect>
+    <text x="435.7578718783931" y="53" class="dlabel">971</text><text x="172" y="83" text-anchor="end" class="blabel">HELYELTON R. · Manacapuru</text>
+    <rect x="180" y="69" width="213.1" height="20" rx="4" fill="#086b9d"><title>HELYELTON R. · Manacapuru: 835</title></rect>
+    <text x="401.0564603691639" y="83" class="dlabel">835</text><text x="172" y="113" text-anchor="end" class="blabel">JOSE H. · Manaus</text>
+    <rect x="180" y="99" width="158.5" height="20" rx="4" fill="#086b9d"><title>JOSE H. · Manaus: 621</title></rect>
+    <text x="346.45276872964166" y="113" class="dlabel">621</text><text x="172" y="143" text-anchor="end" class="blabel">RIZIA G. · Manaus</text>
+    <rect x="180" y="129" width="138.0" height="20" rx="4" fill="#086b9d"><title>RIZIA G. · Manaus: 541</title></rect>
+    <text x="326.0401737242128" y="143" class="dlabel">541</text><text x="172" y="173" text-anchor="end" class="blabel">Katia R. · Manaus</text>
+    <rect x="180" y="159" width="130.9" height="20" rx="4" fill="#086b9d"><title>Katia R. · Manaus: 513</title></rect>
+    <text x="318.89576547231275" y="173" class="dlabel">513</text><text x="172" y="203" text-anchor="end" class="blabel">Cliciane C. · Manaus</text>
+    <rect x="180" y="189" width="103.1" height="20" rx="4" fill="#086b9d"><title>Cliciane C. · Manaus: 404</title></rect>
+    <text x="291.08360477741587" y="203" class="dlabel">404</text><text x="172" y="233" text-anchor="end" class="blabel">Bruno M. · Manaus</text>
+    <rect x="180" y="219" width="95.7" height="20" rx="4" fill="#086b9d"><title>Bruno M. · Manaus: 375</title></rect>
+    <text x="283.6840390879479" y="233" class="dlabel">375</text><text x="172" y="263" text-anchor="end" class="blabel">José M. · Manacapuru</text>
+    <rect x="180" y="249" width="51.3" height="20" rx="4" fill="#086b9d"><title>José M. · Manacapuru: 201</title></rect>
+    <text x="239.28664495114006" y="263" class="dlabel">201</text><text x="172" y="293" text-anchor="end" class="blabel">Luiz M. · Manaus</text>
+    <rect x="180" y="279" width="44.9" height="20" rx="4" fill="#086b9d"><title>Luiz M. · Manaus: 176</title></rect>
+    <text x="232.90770901194355" y="293" class="dlabel">176</text></svg></div>
+
+  <h2>Presença no território</h2>
+  <p class="an">A base alcança <strong>52 dos 62 municípios do Amazonas</strong>. Além da força em Manaus, o interior soma 4.176 apoiadores — com destaque absoluto para Manacapuru (1.652), quase o dobro da segunda praça.</p>
+  <div class="kpis" style="margin-top:0">
+    <div class="kpi"><div class="l">Manaus</div><div class="v">37.099</div><div class="n">89,7% da base</div></div>
+    <div class="kpi"><div class="l">Interior do AM</div><div class="v">4.176</div><div class="n">51 municípios</div></div>
+    <div class="kpi"><div class="l">Maior praça do interior</div><div class="v">Manacapuru</div><div class="n">1.652 apoiadores</div></div>
+  </div>
+  <h2 style="border:none;margin-bottom:2px">Top 15 do interior</h2>
+  <div class="card"><svg viewBox="0 0 720 458" role="img" aria-label="Ranking"><text x="172" y="23" text-anchor="end" class="blabel">Manacapuru</text>
+    <rect x="180" y="9" width="470.0" height="20" rx="4" fill="#086b9d"><title>Manacapuru: 1.652</title></rect>
+    <text x="658" y="23" class="dlabel">1.652</text><text x="172" y="53" text-anchor="end" class="blabel">Parintins</text>
+    <rect x="180" y="39" width="270.6" height="20" rx="4" fill="#086b9d"><title>Parintins: 951</title></rect>
+    <text x="458.5629539951574" y="53" class="dlabel">951</text><text x="172" y="83" text-anchor="end" class="blabel">Humaitá</text>
+    <rect x="180" y="69" width="116.6" height="20" rx="4" fill="#086b9d"><title>Humaitá: 410</title></rect>
+    <text x="304.6464891041162" y="83" class="dlabel">410</text><text x="172" y="113" text-anchor="end" class="blabel">Lábrea</text>
+    <rect x="180" y="99" width="60.0" height="20" rx="4" fill="#086b9d"><title>Lábrea: 211</title></rect>
+    <text x="248.03026634382567" y="113" class="dlabel">211</text><text x="172" y="143" text-anchor="end" class="blabel">Itacoatiara</text>
+    <rect x="180" y="129" width="51.2" height="20" rx="4" fill="#086b9d"><title>Itacoatiara: 180</title></rect>
+    <text x="239.21065375302663" y="143" class="dlabel">180</text><text x="172" y="173" text-anchor="end" class="blabel">Iranduba</text>
+    <rect x="180" y="159" width="30.2" height="20" rx="4" fill="#086b9d"><title>Iranduba: 106</title></rect>
+    <text x="218.15738498789347" y="173" class="dlabel">106</text><text x="172" y="203" text-anchor="end" class="blabel">Borba</text>
+    <rect x="180" y="189" width="24.2" height="20" rx="4" fill="#086b9d"><title>Borba: 85</title></rect>
+    <text x="212.18280871670703" y="203" class="dlabel">85</text><text x="172" y="233" text-anchor="end" class="blabel">Careiro da Várzea</text>
+    <rect x="180" y="219" width="23.0" height="20" rx="4" fill="#086b9d"><title>Careiro da Várzea: 81</title></rect>
+    <text x="211.044794188862" y="233" class="dlabel">81</text><text x="172" y="263" text-anchor="end" class="blabel">Novo Airão</text>
+    <rect x="180" y="249" width="22.2" height="20" rx="4" fill="#086b9d"><title>Novo Airão: 78</title></rect>
+    <text x="210.1912832929782" y="263" class="dlabel">78</text><text x="172" y="293" text-anchor="end" class="blabel">Benjamin Constant</text>
+    <rect x="180" y="279" width="12.2" height="20" rx="4" fill="#086b9d"><title>Benjamin Constant: 43</title></rect>
+    <text x="200.23365617433413" y="293" class="dlabel">43</text><text x="172" y="323" text-anchor="end" class="blabel">Manicoré</text>
+    <rect x="180" y="309" width="11.4" height="20" rx="4" fill="#086b9d"><title>Manicoré: 40</title></rect>
+    <text x="199.38014527845036" y="323" class="dlabel">40</text><text x="172" y="353" text-anchor="end" class="blabel">Tefé</text>
+    <rect x="180" y="339" width="10.8" height="20" rx="4" fill="#086b9d"><title>Tefé: 38</title></rect>
+    <text x="198.81113801452784" y="353" class="dlabel">38</text><text x="172" y="383" text-anchor="end" class="blabel">Codajás</text>
+    <rect x="180" y="369" width="10.5" height="20" rx="4" fill="#086b9d"><title>Codajás: 37</title></rect>
+    <text x="198.52663438256658" y="383" class="dlabel">37</text><text x="172" y="413" text-anchor="end" class="blabel">Apuí</text>
+    <rect x="180" y="399" width="8.3" height="20" rx="4" fill="#086b9d"><title>Apuí: 29</title></rect>
+    <text x="196.25060532687652" y="413" class="dlabel">29</text><text x="172" y="443" text-anchor="end" class="blabel">Tabatinga</text>
+    <rect x="180" y="429" width="8.3" height="20" rx="4" fill="#086b9d"><title>Tabatinga: 29</title></rect>
+    <text x="196.25060532687652" y="443" class="dlabel">29</text></svg></div>
+  <p class="note">Base de cidades higienizada pela plataforma: grafias digitadas pelos apoiadores foram normalizadas para os 62 municípios oficiais do Amazonas (IBGE/TSE).</p>
+
+  <h2>Horário de engajamento</h2>
+  <p class="an">Concentração de cadastros por hora do dia (horário de Manaus). O pico às <strong>13h</strong> indica a melhor janela para divulgação de links, transmissões e disparos da equipe.</p>
+  <div class="card"><svg viewBox="0 0 720 170" role="img" aria-label="Cadastros por horário do dia"><rect x="12.0" y="132.1" width="25.2" height="13.9" rx="3" fill="#086b9d" opacity="0.55"><title>0h: 372 cadastros</title></rect><text x="24.583333333333336" y="164" text-anchor="middle" class="tick">0h</text><rect x="41.2" y="137.7" width="25.2" height="8.3" rx="3" fill="#086b9d" opacity="0.55"><title>1h: 221 cadastros</title></rect><rect x="70.3" y="144.5" width="25.2" height="1.5" rx="3" fill="#086b9d" opacity="0.55"><title>2h: 25 cadastros</title></rect><rect x="99.5" y="144.5" width="25.2" height="1.5" rx="3" fill="#086b9d" opacity="0.55"><title>3h: 3 cadastros</title></rect><rect x="128.7" y="144.5" width="25.2" height="1.5" rx="3" fill="#086b9d" opacity="0.55"><title>4h: 6 cadastros</title></rect><text x="141.25" y="164" text-anchor="middle" class="tick">4h</text><rect x="157.8" y="144.5" width="25.2" height="1.5" rx="3" fill="#086b9d" opacity="0.55"><title>5h: 16 cadastros</title></rect><rect x="187.0" y="139.6" width="25.2" height="6.4" rx="3" fill="#086b9d" opacity="0.55"><title>6h: 171 cadastros</title></rect><rect x="216.2" y="129.5" width="25.2" height="16.5" rx="3" fill="#086b9d" opacity="0.55"><title>7h: 440 cadastros</title></rect><rect x="245.3" y="92.3" width="25.2" height="53.7" rx="3" fill="#086b9d" opacity="0.55"><title>8h: 1.435 cadastros</title></rect><text x="257.9166666666667" y="164" text-anchor="middle" class="tick">8h</text><rect x="274.5" y="54.4" width="25.2" height="91.6" rx="3" fill="#086b9d" opacity="0.55"><title>9h: 2.446 cadastros</title></rect><rect x="303.7" y="23.7" width="25.2" height="122.3" rx="3" fill="#086b9d" opacity="0.55"><title>10h: 3.265 cadastros</title></rect><rect x="332.8" y="46.7" width="25.2" height="99.3" rx="3" fill="#086b9d" opacity="0.55"><title>11h: 2.652 cadastros</title></rect><rect x="362.0" y="51.8" width="25.2" height="94.2" rx="3" fill="#086b9d" opacity="0.55"><title>12h: 2.516 cadastros</title></rect><text x="374.5833333333333" y="164" text-anchor="middle" class="tick">12h</text><rect x="391.2" y="20.0" width="25.2" height="126.0" rx="3" fill="#064d72"><title>13h: 3.364 cadastros</title></rect><text x="403.75" y="14" text-anchor="middle" class="dlabel">13h</text><rect x="420.3" y="42.7" width="25.2" height="103.3" rx="3" fill="#086b9d" opacity="0.55"><title>14h: 2.757 cadastros</title></rect><rect x="449.5" y="45.7" width="25.2" height="100.3" rx="3" fill="#086b9d" opacity="0.55"><title>15h: 2.679 cadastros</title></rect><rect x="478.7" y="48.1" width="25.2" height="97.9" rx="3" fill="#086b9d" opacity="0.55"><title>16h: 2.613 cadastros</title></rect><text x="491.25" y="164" text-anchor="middle" class="tick">16h</text><rect x="507.8" y="27.8" width="25.2" height="118.2" rx="3" fill="#086b9d" opacity="0.55"><title>17h: 3.156 cadastros</title></rect><rect x="537.0" y="38.1" width="25.2" height="107.9" rx="3" fill="#086b9d" opacity="0.55"><title>18h: 2.880 cadastros</title></rect><rect x="566.2" y="32.5" width="25.2" height="113.5" rx="3" fill="#086b9d" opacity="0.55"><title>19h: 3.031 cadastros</title></rect><rect x="595.3" y="30.9" width="25.2" height="115.1" rx="3" fill="#086b9d" opacity="0.55"><title>20h: 3.074 cadastros</title></rect><text x="607.9166666666667" y="164" text-anchor="middle" class="tick">20h</text><rect x="624.5" y="64.7" width="25.2" height="81.3" rx="3" fill="#086b9d" opacity="0.55"><title>21h: 2.171 cadastros</title></rect><rect x="653.7" y="94.2" width="25.2" height="51.8" rx="3" fill="#086b9d" opacity="0.55"><title>22h: 1.384 cadastros</title></rect><rect x="682.8" y="120.9" width="25.2" height="25.1" rx="3" fill="#086b9d" opacity="0.55"><title>23h: 670 cadastros</title></rect></svg></div>
+
+  <h2>Eficiência do sistema</h2>
+  <div class="eff">
+    <div class="e"><div class="t">Velocidade</div><div class="b">1 cadastro a cada 14s</div><p>No dia recorde (29/09), a plataforma registrou 6.349 apoiadores — média de um novo cadastro a cada 14 segundos, sem instabilidade.</p></div>
+    <div class="e"><div class="t">Qualidade do dado</div><div class="b">1 telefone = 1 cadastro</div><p>Deduplicação automática por WhatsApp: quem se cadastra duas vezes recupera o próprio link, sem inflar a base.</p></div>
+    <div class="e"><div class="t">Conformidade</div><div class="b">100% com consentimento</div><p>Todos os registros guardam data e versão do termo de privacidade aceito (LGPD), prontos para auditoria.</p></div>
+    <div class="e"><div class="t">Rastreabilidade</div><div class="b">Cada apoiador tem origem</div><p>A plataforma registra quem indicou quem — relatórios por líder, por lista e por região saem em minutos.</p></div>
+  </div>
+
+  <div class="foot">
+    <span class="dnia"><img src="/apoie/dnia-icon.png" alt="DNIA"> Plataforma desenvolvida e operada por <strong>&nbsp;DNIA Tecnologia e Marketing</strong></span>
+    <span>Retrato de 30/09/2026 · dados do sistema</span>
+  </div>
+</div>
+<div id="tip"></div>
+<script>
+  const tip = document.getElementById("tip");
+  document.querySelectorAll("svg rect > title, svg path > title").forEach((t) => {
+    const el = t.parentElement;
+    const txt = t.textContent;
+    t.remove();
+    el.addEventListener("mousemove", (e) => {
+      tip.textContent = txt; tip.style.opacity = 1;
+      tip.style.left = Math.min(e.clientX + 12, innerWidth - tip.offsetWidth - 8) + "px";
+      tip.style.top = (e.clientY - 34) + "px";
+    });
+    el.addEventListener("mouseleave", () => (tip.style.opacity = 0));
+  });
+</script>
+</body>
+</html>
